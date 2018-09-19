@@ -21,9 +21,7 @@ export class AppComponent {
       calle: "Primera",
       casa: "19"
     }
-  }
- 
-  video = "4glm2hol68o";
+  } 
 
   valorDePromesa = new Promise ( (resolve,reject) =>{
     setTimeout(() => resolve('Llego la data!'), 3500);
@@ -31,4 +29,5 @@ export class AppComponent {
 
   fecha = new Date();
 
+  video:string = "4glm2hol68o";
 }
