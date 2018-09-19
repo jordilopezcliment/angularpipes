@@ -10,7 +10,7 @@ export class AppComponent {
   nombre2 = "fernAndo alberto heRRera jimenez";
   title = 'pipes';
   PI = 3.14159265;
-  a: number = 0.234;
+  a = 0.234;
   salario = 1234.5;
 
   heroe = {
@@ -21,13 +21,14 @@ export class AppComponent {
       calle: "Primera",
       casa: "19"
     }
-  } 
+  };
 
-  valorDePromesa = new Promise ( (resolve,reject) =>{
+  valorDePromesa = new Promise ( (resolve, reject) =>{
     setTimeout(() => resolve('Llego la data!'), 3500);
   });
 
   fecha = new Date();
-
-  video:string = "4glm2hol68o";
+  nombre = "Fernando";
+  video = "4glm2hol68o";
+  activar = true;
 }
